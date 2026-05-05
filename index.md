@@ -113,7 +113,7 @@
   .hero h1 em { color: var(--clay); font-style: italic; }
   .hero-sub {
     font-size: 1.1rem; color: var(--text-muted);
-    max-width: 420px; margin-bottom: 2.5rem; font-weight: 300;
+    max-width: 600px; margin-bottom: 2.5rem; font-weight: 300;
   }
   .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
   .btn-primary {
@@ -138,7 +138,7 @@
   }
   .hero-ceramic-display {
     position: relative;
-    width: 420px; height: 420px;
+    width: 600px; height: 420px;
   }
   .ceramic-ring {
     position: absolute; border-radius: 50%;
@@ -187,7 +187,7 @@
     color: var(--earth); margin-bottom: 1.2rem;
   }
   .section-title em { font-style: italic; color: var(--clay); }
-  .section-body { font-size: 1.05rem; color: var(--text-muted); max-width: 560px; font-weight: 300; }
+  .section-body { font-size: 1.05rem; color: var(--text-muted); max-width: 600px; font-weight: 300; }
 
   /* HOW IT WORKS */
   .how { background: var(--warm-white); }
@@ -323,7 +323,7 @@
   .contact .section-title { color: white; margin: 0 auto 1rem; }
   .contact .section-body { color: rgba(255,255,255,0.8); margin: 0 auto 3rem; }
   .contact-form {
-    max-width: 520px; margin: 0 auto;
+    max-width: 600px; margin: 0 auto;
     display: flex; flex-direction: column; gap: 1rem;
   }
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
@@ -640,7 +640,7 @@
 <!-- CONTACT -->
 <section class="contact" id="kontakt">
   <div class="section-tag">Jetzt anfragen</div>
-  <h2 class="section-title" style="max-width:500px;">Bereit für euer<br><em>Töpferglück?</em></h2>
+  <h2 class="section-title" style="max-width:600px;">Bereit für euer<br><em>Töpferglück?</em></h2>
   <p class="section-body">Schreibt uns und wir melden uns innerhalb von 24 Stunden mit einem persönlichen Angebot.</p>
 
   <form class="contact-form" onsubmit="handleSubmit(event)">
