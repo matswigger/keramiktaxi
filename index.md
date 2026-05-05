@@ -72,6 +72,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 80px;
+    padding: 80px max(0px, calc((100% - 1280px) / 2)) 0;
     background: var(--cream);
     position: relative;
     overflow: hidden;
